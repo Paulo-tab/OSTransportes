@@ -1,0 +1,25 @@
+body{
+    background-color:brown;
+    color: white;
+    font-family: "Tiny5", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+}
+button{
+    background-color:yellow;
+    color: black;
+    opacity: 0.5;
+    font-family: "Kode Mono", monospace;
+}
+button:hover{
+    opacity: 1.0;
+}
+.passo{
+    display: none;
+}
+.passo.ativo{
+    display: block;
+}
